@@ -1,1 +1,53 @@
 /* All styles for your header Components live here */
+
+.appContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.hContainer {
+    display: flex;
+}
+
+.hTitle {
+    display: flex;
+    width: 85%;
+}
+
+.hImageContainer {
+    width: 15%;
+    max-width: 30px;
+    max-height: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 14px;
+}
+
+.hImage {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.hTitle h1 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.hTitle span {
+    color: grey;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.hContent {
+    font-size: 12px;
+    line-height: 1.25;
+    margin-left: 15px;
+    width: 510px;
+}
