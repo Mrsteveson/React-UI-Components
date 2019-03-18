@@ -3,7 +3,7 @@ import './Header.css';
 import ImageThumbnail from './ImageThumbnail';
 import HeaderContent from './HeaderContent';
 
-const HeaderContainer = () => {
+function HeaderContainer() {
     return (
         <div className = 'hContainer'>
             <ImageThumbnail />

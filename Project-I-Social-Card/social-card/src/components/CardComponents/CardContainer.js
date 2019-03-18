@@ -4,7 +4,7 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 
-const CardContainer = () => {
+function CardContainer() {
     return (
         <div className = 'cdContainer'> 
             <a href = 'https://reactjs.org'>
