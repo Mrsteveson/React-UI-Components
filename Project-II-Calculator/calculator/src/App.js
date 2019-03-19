@@ -29,9 +29,9 @@ const mathSignsArray = [
 const displayNumber = 0;
 
 const App = () => {
-  handleClick = e => {
-    
-  }
+  // handleClick = e => {
+
+  // }
   return (
     <div className = "calculator">
       <CalculatorDisplay current = {displayNumber} />
