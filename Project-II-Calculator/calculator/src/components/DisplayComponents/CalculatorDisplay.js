@@ -5,7 +5,7 @@ import './Display.css';
 function CalcDisplay(props){
     return(
         <div className = "calc-display">
-            <h2>{props.currentValue}</h2>
+            <h2>{props.current}</h2>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import NumberButton from "./components/ButtonComponents/NumberButton";
-// import ActionButton from "./components/ButtonComponents/ActionButton";
+import ActionButton from "./components/ButtonComponents/ActionButton";
 
 const numbersArray = [
   {text: "clear", buttonStyle: 'number action'},
@@ -29,17 +29,19 @@ const mathSignsArray = [
 const displayNumber = 0;
 
 const App = () => {
-
+  handleClick = e => {
+    
+  }
   return (
     <div className = "calculator">
-      <CalculatorDisplay currentValue = {displayNumber} />
+      <CalculatorDisplay current = {displayNumber} />
       <div className = "boxes">
         <div className = "box-content-number">
          {numbersArray.map(button => <NumberButton button={button} />)}
         </div>
 
         <div className = "box-content-signs">
-          {mathSignsArray.map(button => <NumberButton button={button} />)}
+          {mathSignsArray.map(button => <ActionButton button={button} />)}
         </div>
       </div>
     </div>

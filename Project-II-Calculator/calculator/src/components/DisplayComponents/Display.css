@@ -1,4 +1,4 @@
-.calc-display{ 
+.calc-display { 
     width: 490px;
     height: 20%;
     display: block;
@@ -7,11 +7,11 @@
     position: relative;
 }
 
-h2{
+h2 {
     color: white;
     margin: auto;
     position: absolute;
-    bottom: 15px;
-    right: 25px;
+    bottom: 25px;
+    right: 20px;
     font-size: 50px;
 }
