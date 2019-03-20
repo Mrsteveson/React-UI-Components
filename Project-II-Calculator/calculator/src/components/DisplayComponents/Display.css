@@ -1,0 +1,17 @@
+.calc-display { 
+    width: 490px;
+    height: 20%;
+    display: block;
+    background: black;
+    border: 2px solid grey;
+    position: relative;
+}
+
+h2 {
+    color: white;
+    margin: auto;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    font-size: 50px;
+}
